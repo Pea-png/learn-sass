@@ -4,14 +4,14 @@ $color-primary: #0141a7;   // Usage: Main action buttons, links, highlights
 $color-primary-hover: #2563EB; // Usage: Hover, active states
 // Semantic Colors
 $color-secondary: #22C55E; // Usage: Success, confirmation
-$color-warning: #F97316;   // Usage: Alerts, pending states
+$color-warning: #d25f0c;   // Usage: Alerts, pending states
 $color-error: #EF4444;     // Usage: Errors, validation fail
 //  Base Surface Colors
 $color-background: #F9FAFB; // Usage: Page background
 $color-border: #E5E7EB;     // Usage: Input borders, dividers
 //  Text Colors
 $color-text-primary: $color-primary;
-$color-text-secondary: #555555;
+$color-text-secondary: #df6868;
 $color-text-muted: #888888;
 $color-text-link: $color-primary;
 
@@ -19,7 +19,7 @@ $color-text-link: $color-primary;
 // Buttons
 $btn-primary-bg: $color-primary;
 $btn-primary-hover-bg: $color-primary-hover;
-$btn-primary-text: #fff;
+$btn-primary-text: #823434;
 // Alerts
 $alert-success-bg: rgba($color-secondary, 0.1);
 $alert-warning-bg: rgba($color-warning, 0.1);

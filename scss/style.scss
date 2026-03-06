@@ -8,9 +8,7 @@ body {
 .hero {
   @include hero(); 
 }
-.heading-primary {
-  color:$color-primary;
-}
+
 
 // NAVIGATION BAR
 .navbar {
@@ -25,9 +23,7 @@ body {
   @include button($color-secondary, $btn-primary-text, darken($color-secondary, 5%));
 }
 
-.btn-danger {
-  @include button($color-error, $btn-primary-text, darken($color-error, 8%));
-}
+
 // PRODUCT CARD
 // PRODUCT LIST LAYOUT
 .product-list {
